@@ -1,15 +1,24 @@
-smart 7688 Blue tooth links to bt-uart module.
-==========
-img version : 0.94
-kernel : 3.18.23
-sw pkg :
+# smart 7688 Blue tooth links to bt-uart module.
+
+## img version : 
+0.94
+
+## kernel : 
+3.18.23
+
+
+## sw pkg :
 	lks7688.img, offical image
 	bt_uart_patch.tar, patch of bluez ipk
-peripheral :
+
+## peripheral :
 	smart_7688 module
 	bluetooth USB dongle
 	HC-06 blue tooth UART moudule
-==========
+	
+![PIC](devices.jpg)<BR>
+
+## Description 
 power on HC-06.
 plug in the bluetooth USB dongle.
 
@@ -24,7 +33,6 @@ install ipk package of bluez ipk
 	sync
 	reboot
 
-==========
 Try to that smart_7688 module connects to HC-06.
 Basic way to check usb bt dongle 
 	hciconfig
